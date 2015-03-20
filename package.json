@@ -21,7 +21,7 @@
   "keywords": [
     "hull",
     "ship",
-    "hull-ship",
+    "hull-ship"
   ],
   "devDependencies": {
     "gulp": "^3.8.11",
