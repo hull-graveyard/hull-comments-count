@@ -1,0 +1,7 @@
+{
+  "name": "Hull comments count",
+  "description": "Hull comments count",
+  "index": "ship.html",
+  "version": "0.0.1",
+  "locales": ["en"]
+}
