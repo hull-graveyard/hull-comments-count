@@ -1,9 +1,9 @@
-Sharing buttons ship
-====================
+Comments count
+==============
 
-Sharing buttons [Ship](http://hull.io/ships) you can embed in your site built
-with [React](http://facebook.github.io/react/).
+A [Ship](http://hull.io/ships) that display the number of comment on the current
+entity.
 
 ## Manifest URL
 
-    https://hull-ships.github.io/hull-sharing-buttons/manifest.json
+    https://hull-ships.github.io/hull-comments-count/manifest.json
