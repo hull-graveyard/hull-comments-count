@@ -35,7 +35,6 @@
     "del": "^1.1.0",
     "file-loader": "^0.8.1",
     "gh-pages": "^0.2.0",
-    "gulp": "^3.8.11",
     "gulp-util": "^3.0.1",
     "json-loader": "^0.5.1",
     "jsx": "^0.9.89",
@@ -55,5 +54,8 @@
     "touch": "0.0.3",
     "webpack": "^1.7.1",
     "webpack-dev-server": "^1.7.0"
+  },
+  "dependencies": {
+    "underscore": "^1.8.2"
   }
 }
