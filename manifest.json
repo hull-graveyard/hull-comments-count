@@ -1,6 +1,7 @@
 {
-  "name": "Hull comments count",
-  "description": "Hull comments count",
+  "name": "Hull Comments Count",
+  "description": "A simple comments counter",
+  "picture":"picture.png",
   "index": "ship.html",
   "version": "0.0.1",
   "locales": ["en"]
