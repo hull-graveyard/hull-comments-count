@@ -4,4 +4,4 @@
 function(e,t,n){"use strict";var o=function(e){return e&&e.__esModule?e["default"]:e},r=o(n(/*! ./bootstrap */1));Hull.onEmbed(document,r)},/*!**************************!*\
   !*** ./src/bootstrap.js ***!
   \**************************/
-function(e,t,n){"use strict";function o(e,t){var n=Hull.entity.encode(Hull.findUrl());Hull.api(n,function(n){var o,r=n.stats.comments||0;o=r>1?"more_comment":1===r?"one_comment":"zero_comment";var u=t.ship.translations.en[o].replace("{count}",r);e.innerHTML=u})}e.exports=o}])});
+function(e){"use strict";function t(e,t){var n=Hull.entity.encode(Hull.findUrl());Hull.api(""+n+"/comments",{wrapped:!0},function(n){var o,r=n.pagination.total||0;o=r>1?"more_comment":1===r?"one_comment":"zero_comment";var u=t.ship.translations.en[o].replace("{count}",r);e.innerHTML=u})}e.exports=t}])});
