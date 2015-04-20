@@ -1,8 +1,8 @@
 function bootstrap(element, deployment) {
   var entity = Hull.entity.encode(Hull.findUrl());
 
-  Hull.api(entity, function(r) {
-    var count = r.stats.comments || 0;
+  Hull.api(`${entity}/comments`, { wrapped: true }, function(r) {
+    var count = r.pagination.total || 0;
 
     var k;
     if (count > 1) {
